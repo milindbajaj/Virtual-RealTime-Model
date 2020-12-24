@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Virtual Realtime Model</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="{{ url_for('static', filename='favicon1.png')}}" rel="icon">
+  <link href="{{ url_for('static', filename='apple-touch-icon1.png')}}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link type= "text/css" href="{{ url_for('static', filename='bootstrap/bootstrap.min.css')}}" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link type= "text/css" href="{{ url_for('static', filename='font-awesome/font-awesome.min.css')}}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='animate/animate.min.css')}}" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link type= "text/css" href="{{ url_for('static', filename='style/style.css')}}" rel="stylesheet">
+</head>
+
+
+
+<body>
+
+  <!--==========================
+    Hero Section
+  ============================-->
+  <section id="hero">
+    <div class="hero-container">
+      <h1>Virtual Realtime Model</h1>
+      <h2>Render 2d Image into 3d Model</h2><h3>Made with Unity and ARCore</h3>
+      <a target="_blank" class="btn-get-started" href="https://drive.google.com/file/d/1qbSXHcK9J3antSGVn3WXtmC-EksUzk3M/view?usp=sharing">DOWNLOAD APK</a><br><br>
+      <h2>Download Sample Image to Try Our App<br>
+      <a target="_blank" class="btn-get-started" href="{{ url_for('sample1') }}">SAMPLE IMAGE 1</a><a target="_blank" class="btn-get-started" href="{{ url_for('sample2') }}">SAMPLE IMAGE 2</a></h2>
+    </div>
+  </section><!-- #hero -->
+
+
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+      <div class="credits">
+        Made by Milind Bajaj And Anurag Sawle
+      </div>
+  </footer><!-- #footer -->
+
+
+
+
+  <!-- Contact Form JavaScript File -->
+
+
+  <!-- Template Main Javascript File -->
+  <script src="{{ url_for('static', filename='/js/main.js')}}"></script>
+
+
+
+
+
+</body>
+</html>
