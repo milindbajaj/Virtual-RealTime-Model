@@ -11,12 +11,12 @@ def home():
 
 @app.route('/sample1')
 def sample1 ():
-    path = APK + sample1
+    path = APK + 'sample1.png'
     return send_file(path, as_attachment=True)
 
 @app.route('/sample2')
 def sample2 ():
-    path = APK + sample2
+    path = APK + 'sample2.png'
     return send_file(path, as_attachment=True)
 
 if __name__ == '__main__':
